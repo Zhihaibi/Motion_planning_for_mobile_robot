@@ -1,0 +1,80 @@
+/home/alan/Softwares/clion2021/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/alan/catkin_ws/src/grid_path_searcher
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/alan/catkin_ws/src/grid_path_searcher/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /home/alan/catkin_ws/devel;/opt/ros/noetic
+-- This workspace overlays: /opt/ros/noetic
+-- Found PythonInterp: /home/alan/Anaconda3/bin/python3 (found suitable version "3.8.8", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/alan/Anaconda3/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /home/alan/Anaconda3/lib/python3.8/site-packages/em.py  
+-- Using empy: /home/alan/Anaconda3/lib/python3.8/site-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/alan/catkin_ws/src/grid_path_searcher/cmake-build-debug/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+CMake Deprecation Warning at /usr/src/googletest/CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at /usr/src/googletest/googlemock/CMakeLists.txt:45 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:56 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Found PythonInterp: /home/alan/Anaconda3/bin/python3 (found version "3.8.8") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+ImportError: "from catkin_pkg.package import parse_package" failed: No module named 'catkin_pkg'
+Make sure that you have installed "catkin_pkg", it is up to date and on the PYTHONPATH.
+CMake Error at /opt/ros/noetic/share/catkin/cmake/safe_execute_process.cmake:11 (message):
+  execute_process(/home/alan/Anaconda3/bin/python3
+  "/opt/ros/noetic/share/catkin/cmake/parse_package_xml.py"
+  "/opt/ros/noetic/share/catkin/cmake/../package.xml"
+  "/home/alan/catkin_ws/src/grid_path_searcher/cmake-build-debug/catkin/catkin_generated/version/package.cmake")
+  returned error code 1
+Call Stack (most recent call first):
+  /opt/ros/noetic/share/catkin/cmake/catkin_package_xml.cmake:74 (safe_execute_process)
+  /opt/ros/noetic/share/catkin/cmake/all.cmake:168 (_catkin_package_xml)
+  /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:4 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/alan/catkin_ws/src/grid_path_searcher/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/alan/catkin_ws/src/grid_path_searcher/cmake-build-debug/CMakeFiles/CMakeError.log".

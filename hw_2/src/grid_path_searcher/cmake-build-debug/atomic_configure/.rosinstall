@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/alan/catkin_ws/src/grid_path_searcher/cmake-build-debug/devel/setup.sh

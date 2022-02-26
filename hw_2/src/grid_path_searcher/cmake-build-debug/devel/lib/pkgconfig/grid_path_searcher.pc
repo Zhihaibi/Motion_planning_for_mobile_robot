@@ -1,0 +1,8 @@
+prefix=/home/alan/catkin_ws/src/grid_path_searcher/cmake-build-debug/devel
+
+Name: grid_path_searcher
+Description: Description of grid_path_searcher
+Version: 0.0.1
+Cflags: -I/home/alan/catkin_ws/src/grid_path_searcher/include
+Libs: -L${prefix}/lib 
+Requires: 
