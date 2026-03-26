@@ -1,3 +1,3 @@
 # Motion planning for mobile robot
 
-Lecture answers in shenlanxueyuan 
+Course answers in shenlanxueyuan 
